@@ -1,0 +1,10 @@
+{
+  "groceryItems": [
+    {"id": 1, "name": "Apples", "done": false, "deleted": false},
+    {"id": 2, "name": "Oranges", "done": false, "deleted": false},
+    {"id": 3, "name": "Bananas", "done": true, "deleted": false},
+    {"id": 4, "name": "Eggs", "done": true, "deleted": false},
+    {"id": 5, "name": "Milk", "done": false, "deleted": false},
+    {"id": 6, "name": "Pepper", "done": false, "deleted": false}
+  ]
+}

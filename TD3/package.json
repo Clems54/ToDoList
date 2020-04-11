@@ -1,0 +1,40 @@
+{
+  "name": "mynsvueproject",
+  "version": "1.0.0",
+  "description": "A native application built with NativeScript-Vue",
+  "author": "Clems <exemple@exemple.com>",
+  "license": "MIT",
+  "nativescript": {
+    "id": "org.nativescript.application",
+    "templateVersion": "v2",
+    "tns-android": {
+      "version": "6.0.0"
+    },
+    "tns-ios": {
+      "version": "6.0.1"
+    }
+  },
+  "dependencies": {
+    "@nativescript/theme": "^2.2.1",
+    "@vue/devtools": "^5.0.0-beta.3",
+    "nativescript-fontawesome": "^1.0.0",
+    "nativescript-localstorage": "^2.0.1",
+    "nativescript-socket.io": "^0.11.1",
+    "nativescript-toast": "^2.0.0",
+    "nativescript-vue": "^2.4.0",
+    "nativescript-vue-devtools": "^1.2.0",
+    "nativescript-vue-fonticon": "^1.0.3",
+    "tns-core-modules": "^6.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "nativescript-dev-webpack": "^1.0.0",
+    "nativescript-vue-template-compiler": "^2.0.0",
+    "nativescript-worker-loader": "~0.9.0",
+    "node-sass": "^4.9.2",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.4.0"
+  }
+}
